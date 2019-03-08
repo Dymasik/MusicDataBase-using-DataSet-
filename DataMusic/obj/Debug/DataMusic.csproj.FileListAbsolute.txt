@@ -1,0 +1,7 @@
+C:\Users\Lenovo\source\repos\MusicDataBase\DataMusic\bin\Debug\DataMusic.dll.config
+C:\Users\Lenovo\source\repos\MusicDataBase\DataMusic\bin\Debug\DataMusic.dll
+C:\Users\Lenovo\source\repos\MusicDataBase\DataMusic\bin\Debug\DataMusic.pdb
+C:\Users\Lenovo\source\repos\MusicDataBase\DataMusic\obj\Debug\DataMusic.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\MusicDataBase\DataMusic\obj\Debug\DataMusic.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\MusicDataBase\DataMusic\obj\Debug\DataMusic.dll
+C:\Users\Lenovo\source\repos\MusicDataBase\DataMusic\obj\Debug\DataMusic.pdb

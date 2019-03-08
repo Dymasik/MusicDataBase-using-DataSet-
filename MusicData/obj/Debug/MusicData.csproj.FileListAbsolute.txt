@@ -1,0 +1,6 @@
+C:\Users\Lenovo\source\repos\MusicDataBase\MusicData\bin\Debug\MusicData.dll.config
+C:\Users\Lenovo\source\repos\MusicDataBase\MusicData\bin\Debug\MusicData.dll
+C:\Users\Lenovo\source\repos\MusicDataBase\MusicData\bin\Debug\MusicData.pdb
+C:\Users\Lenovo\source\repos\MusicDataBase\MusicData\obj\Debug\MusicData.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\MusicDataBase\MusicData\obj\Debug\MusicData.dll
+C:\Users\Lenovo\source\repos\MusicDataBase\MusicData\obj\Debug\MusicData.pdb

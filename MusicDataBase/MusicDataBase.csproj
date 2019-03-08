@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E983731A-572C-4A0D-94F9-5C9F1E5EBE78}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MusicDataBase</RootNamespace>
+    <AssemblyName>MusicDataBase</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAlbumFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAlbumFrm.Designer.cs">
+      <DependentUpon>AddAlbumFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddArtistFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddArtistFrm.Designer.cs">
+      <DependentUpon>AddArtistFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCountryFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCountryFrm.Designer.cs">
+      <DependentUpon>AddCountryFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddGanreFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddGanreFrm.Designer.cs">
+      <DependentUpon>AddGanreFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddMPFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMPFrm.Designer.cs">
+      <DependentUpon>AddMPFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSongFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSongFrm.Designer.cs">
+      <DependentUpon>AddSongFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArtistByCountryFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArtistByCountryFrm.Designer.cs">
+      <DependentUpon>ArtistByCountryFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSMusic.cs">
+      <DependentUpon>DSMusic.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSMusic.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSMusic.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSong.Designer.cs">
+      <DependentUpon>FrmSong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MPSearchFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPSearchFrm.Designer.cs">
+      <DependentUpon>MPSearchFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusicDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusicDB.Designer.cs">
+      <DependentUpon>MusicDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddAlbumFrm.resx">
+      <DependentUpon>AddAlbumFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddArtistFrm.resx">
+      <DependentUpon>AddArtistFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCountryFrm.resx">
+      <DependentUpon>AddCountryFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddGanreFrm.resx">
+      <DependentUpon>AddGanreFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMPFrm.resx">
+      <DependentUpon>AddMPFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSongFrm.resx">
+      <DependentUpon>AddSongFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArtistByCountryFrm.resx">
+      <DependentUpon>ArtistByCountryFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSong.resx">
+      <DependentUpon>FrmSong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPSearchFrm.resx">
+      <DependentUpon>MPSearchFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusicDB.resx">
+      <DependentUpon>MusicDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DSMusic.xsc">
+      <DependentUpon>DSMusic.xsd</DependentUpon>
+    </None>
+    <None Include="DSMusic.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSMusic.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSMusic.xss">
+      <DependentUpon>DSMusic.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\oboik.ru_58534.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
